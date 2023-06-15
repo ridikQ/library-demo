@@ -13,10 +13,12 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 public class MovieApplication {
-
+	public static String myconst="Final";
 	public static void main(String[] args) {
 		SpringApplication.run(MovieApplication.class, args);
 	}
+
+	System.out.println(myconst);
 	@Bean
 	public Docket swaggerConfiguration() {
 		return new Docket(DocumentationType.SWAGGER_2)

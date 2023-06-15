@@ -18,7 +18,6 @@ public class MovieApplication {
 		SpringApplication.run(MovieApplication.class, args);
 	}
 
-	dfdsf
 	@Bean
 	public Docket swaggerConfiguration() {
 		return new Docket(DocumentationType.SWAGGER_2)

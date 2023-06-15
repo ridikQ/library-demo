@@ -18,7 +18,7 @@ public class MovieApplication {
 		SpringApplication.run(MovieApplication.class, args);
 	}
 
-	System.out.println(myconst);
+	System.out.println(mycon);
 	@Bean
 	public Docket swaggerConfiguration() {
 		return new Docket(DocumentationType.SWAGGER_2)
